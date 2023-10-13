@@ -1,6 +1,6 @@
 const emailInput = document.getElementById("in_email");
 const formBtn = document.querySelector("form button");
-const dicmissBtn = document.getElementById("dismiss-btn");
+const dismissBtn = document.getElementById("dismiss-btn");
 const successMobile = document.querySelector(".success-mobile");
 const signUpForm = document.querySelector(".sign-up-form");
 const re = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
@@ -21,7 +21,7 @@ formBtn.addEventListener("click", (event) => {
   }
 });
 
-dicmissBtn.addEventListener("click", (event) => {
+dismissBtn.addEventListener("click", (event) => {
   event.preventDefault();
   successMobile.classList.add("hidden");
   signUpForm.classList.remove("hidden");
