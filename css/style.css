@@ -305,7 +305,7 @@ body {
 
 .success-mobile button:hover,
 .container .form-box form button:hover {
-  background-image: linear-gradient(to right, var(--Tomato) 50%, #FF5722 100%);
+  background-image: linear-gradient(to right, var(--Tomato), #FF5722);
 }
 
 /* Mobile Success */
