@@ -68,7 +68,7 @@ body {
 @media (min-width: 640px) {
   .container .content {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 1fr 260px;
   }
 }
 
@@ -166,6 +166,7 @@ body {
 @media (min-width: 640px) {
   .container .form-box p {
     margin-bottom: 15px;
+    font-size: 14px;
   }
 }
 
@@ -213,6 +214,7 @@ body {
 @media (min-width: 640px) {
   .container .form-box ul li {
     margin-bottom: 10px;
+    font-size: 14px;
   }
 }
 
